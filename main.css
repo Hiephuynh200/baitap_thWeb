@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header {
+    padding: 0 12%;
+}
+
+.navbar-logo {
+    max-width: 100%;
+    margin: 1rem 0;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-link  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link nav a {
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-link nav a:hover { 
+    color: #d9d8d8;
+    transition: all ease-in 0.2s;
+    text-decoration: underline;
+}
+
+/* banner */
+/* banner */
+#product {
+    /* padding: 1rem 12%; */
+    margin:2rem 2rem;
+}
+
+.pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1;
+    text-align: center;
+}
+
+.pro img {
+    width: 80%;
+    object-fit: cover;
+}
+
+/* pro display */
+#pro-display { 
+    padding: 1rem 12%;
+}
+
+#pro-display h2 {
+    position: relative;
+    text-align: center;
+    margin: 2rem;
+}
+
+#pro-display h2::after {
+    content: "";
+    background: orange;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 46px;
+    right: 47%;
+}
+
+/* pro display */
+#pro-display {
+    padding: 1rem 0;
+}
+
+.pro-container {
+    margin-top: 2rem;
+}
+
+.col-4 {
+    flex-basis: 22%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.6s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+h4 {
+    color: #555;
+}
+
+.raitting i {
+    color: #ff523b;
+}
+
+/* banner 2 */
+#banner2 {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+#banner2 nav {
+    padding: 0 12%;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.banner2-content-left {
+    flex-basis: 50%;
+    margin: 5rem 0 ;
+}
+
+.banner2-content-left h1  {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.btn-banner2 {
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color:  orange ;
+    color: #fff;
+    font-size: .9rem;
+    box-shadow: 5px 10px 8px #888888;
+    cursor: pointer;
+}
+
+.btn-banner2:hover {
+    box-shadow: 21px 20px 15px #888888;
+    transition: all ease-in 0.2s;
+}
+
+.banner2-content-right {
+    flex-basis: 50%;
+}
+
+/* feedback */
+#feedback {
+    padding-top: 100px;
+}
+
+.container {
+    padding: 0 1.5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1;
+}
+
+.col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0,0.1) ;
+    cursor: pointer;
+    transition:transform 0.6s ;    
+    width: 30%;
+}
+
+.col-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.col-3:hover {
+    transform: translateY(-10px);
+}
+
+.col-3 h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+.raitting i {
+    color: #ff523b;
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777; 
+}
+
+/*  pay */
+#pay .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+.container img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#pay .container img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+/* footer */
+#footer {
+    padding: 0 12%;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-content {
+    width: 23%;
+    margin: 4rem 0;
+}
+
+.footer-img img {
+    margin: .5rem 0;
+}
+
+.footer-content h3 {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+
+}
+
+#footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1;
+    position: relative;
+
+}
+
+
+.footer-content .social-img {
+    width: 100px;
+}
+
+.logo-footer {
+    width: 80%;
+    margin: .5rem 0;
+}
+
+.footer-content p {
+    font-size:1.5em ;
+    font-weight: bold;
+
+}
+
+.footer-content a {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem 0;
+}
+
+.footer-content a:hover {
+    color: blue;
+}
+
+#footer .container::after {
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 51px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copyright {
+    text-decoration: none;
+    color: #fff;
+}
